@@ -4,7 +4,7 @@ while True:
     num2 = int(input("enter the second number:"))
 
     while True:
-      operators = input("enter one of the followings(+ ,- ,/ ,*)")
+      operators = input("enter one of the followings: + ,- ,/ ,*.")
       if operators == "+":
         print(num1 + num2)
         break
@@ -23,15 +23,16 @@ while True:
       else:
         print("operators not available")
 
-
     again = input("do want to calculate again:(y/n)")
   
     while again.lower() != "y" and again.lower() != "n":
       print("please enter y or n!")
       again = input("do want to calculate again:(y/n)")
-
+      
     if again.lower() == "n":
-        break
+       print("Goodbye")
+       break
+      
   except ValueError:
     print("thats not a number!please enter a number")
     continue
