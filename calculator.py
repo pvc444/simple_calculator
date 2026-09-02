@@ -1,7 +1,7 @@
 while True:
   try:
-    num1 = int(input("enter the first number:"))
-    num2 = int(input("enter the second number:"))
+    num1 = float(input("enter the first number:"))
+    num2 = float(input("enter the second number:"))
 
     while True:
       operators = input("enter one of the followings: + ,- ,/ ,*.")
