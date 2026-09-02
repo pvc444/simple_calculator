@@ -23,13 +23,13 @@ while True:
       else:
         print("operators not available")
 
-    again = input("do want to calculate again:(y/n)")
+    again = input("do want to calculate again:(y/n)").lower()
   
-    while again.lower() != "y" and again.lower() != "n":
+    while again != "y" and again != "n":
       print("please enter y or n!")
-      again = input("do want to calculate again:(y/n)")
+      again = input("do want to calculate again:(y/n)").lower()
       
-    if again.lower() == "n":
+    if again == "n":
        print("Goodbye")
        break
       
