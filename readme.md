@@ -13,6 +13,6 @@ ___
 ## how to use
 1. Run the 'calculator.py' file.
 2. Enter the first number.
-3.Enter the second number.
+3. Enter the second number.
 4. Choose an operator.
 5. The calculator will show the result.
